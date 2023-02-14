@@ -10,6 +10,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   @override
+
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
@@ -17,7 +18,7 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           elevation: 0,
           backgroundColor: Colors.red,
-          leading: Icon(Icons.ac_unit_outlined),
+          leading: Icon(Icons.ac_unit_outlined,color: Colors.black,),
           centerTitle: true,
           title: Text(
             "Google font",
